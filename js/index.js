@@ -26,7 +26,8 @@ const calculateMoneyForRp = rpDesired => {
   return `You need ${totalPrice}€ to get to ${originalRp} RP`;
 };
 
-const onClick = () => {
+const onClick = e => {
+  e.preventDefault();
   const input = document.getElementById('input1').value;
   return calculateMoneyForRp(input);
 };
