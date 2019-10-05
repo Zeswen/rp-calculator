@@ -1,3 +1,25 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #input1 {
-    width: 200px;
+    text-align: center;
 }

@@ -22,7 +22,7 @@ const calculateMoneyForRp = rpDesired => {
     totalPrice += +RP_PAYMENTS[closestRp];
   }
   const result = document.getElementById('result');
-  result.innerText = `You need ${totalPrice}€ to get to ${originalRp} RP`;
+  result.innerText = `Result: You need ${totalPrice}€ to get to ${originalRp} RP`;
   return `You need ${totalPrice}€ to get to ${originalRp} RP`;
 };
 
