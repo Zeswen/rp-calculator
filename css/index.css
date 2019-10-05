@@ -18,6 +18,8 @@ body {
     width: 25%;
     justify-content: space-around;
     align-items: center;
+    color: red;
+
 }
 
 #input1 {
